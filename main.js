@@ -26,8 +26,8 @@ function draw () {
     ctx.fillStyle = "#0095DD";
     ctx.fill();
     ctx.closePath;
-   // x += dx;
-   // y += dy;
+    x += dx;
+    y += dy;
 }
 
 setInterval(draw, 10);
